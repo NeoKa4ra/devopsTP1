@@ -1,0 +1,12 @@
+Pour ignorer des fichiers/dossiers, nous avons créé un fichier .gitignore dans le répertoire racine :
+touch .gitignore
+Nous avons créé des fichiers .pdf : un dans le répertoire racine et un dans le dossier test.
+Aprés un "git status", ils étaient affichés dans les fichiers/dossiers "untracked".
+Ensuite, nous avons édité le fichier .gitignore afin de rajouter les deux lignes suivantes :
+*.pdf
+tmp/
+Puis nous avons refait un "git status", et tous les fichiers .pdf et le dossier tmp n'apparaissent plus.
+
+Nous avons voulu tester d'ignorer uniquement les pdf dans un dossier précis et tout ce qui le succède dans l'arborescence des dossiers/fichiers.
+Nous avons déplacé le .gitignore dans un dossier contenant des pdf, et avons refait un "git status"
+Tous les pdf du dossier et succèdant dans l'arborescence n'apparaissent pas, mais le fichier .pdf de notre répertoire racine apparaît bien dans les fichiers/dossiers "untracked" 
