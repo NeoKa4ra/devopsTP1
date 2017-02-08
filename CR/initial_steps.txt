@@ -1,0 +1,6 @@
+Liste des commandes :
+
+git init
+git clone https://github.com/NeoKa4ra/devopsTP1.git
+git add fichier/dossier
+git commit -a -m "message"
