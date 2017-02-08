@@ -2,5 +2,14 @@ Liste des commandes :
 
 git init
 git clone https://github.com/NeoKa4ra/devopsTP1.git
-git add fichier/dossier
-git commit -a -m "message"
+git add FICHIER/DOSSIER
+git commit -a -m "MESSAGE"
+git config --global user.name USERNAME
+git config --global user.email EMAIL
+git config --global core.editor EDITOR
+git status
+git branch
+git branch BRANCHNAME
+git checkout BRANCHNAME
+gitk
+
