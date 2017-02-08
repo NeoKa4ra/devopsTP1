@@ -1,7 +1,7 @@
 1 - Création de branche :
 git branch BRANCHNAME
 
-2 et 3 - Liste des branches et savoir sur quelle branche on travaille (branche courante : avec une étoile, et de couleur souvent) :
+2 et 3 - Liste des branches et savoir sur quelle branche on travaille (branche courante : avec une étoile, et de couleur souvent) : a
 git branch
 
 4 - Changer de branche :
