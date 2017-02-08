@@ -1,5 +1,6 @@
 Pour avoir un fichier dans la catégorie Changes to be committed :
 Dès qu'il y a une modification ou création d'un fichier/dossier, puis un "git add FICHIER/DOSSIER" 
+Dès qu'il y a une suppression d'un fichier/dossier "git rm FICHIER/DOSSIER"
 
 Pour avoir un fichier dans la catégorie Changes not staged for commit :
 Lorsque on a modifié un fichier existant sur le dépôt mais que nous ne l'avons pas encore add.
