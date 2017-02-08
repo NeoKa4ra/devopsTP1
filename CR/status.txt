@@ -1,0 +1,12 @@
+Pour avoir un fichier dans la catégorie Changes to be committed :
+Dès qu'il y a une modification ou création d'un fichier/dossier, puis un "git add FICHIER/DOSSIER" 
+
+Pour avoir un fichier dans la catégorie Changes not staged for commit :
+Lorsque on a modifié un fichier existant sur le dépôt mais que nous ne l'avons pas encore add.
+
+Pour avoir un fichier dans la catégorie Untracked files :
+Après avoir créé un fichier/dossier.
+
+Un fichier peut apparaître dans au moins 2 catégories :
+Oui, par exemple lorsque nous modifions un fichier, nous l'ajoutons au prochain commit "git add FICHIER" puis nous le re-modifions.
+Il apparaîtra donc dans "Changes to be committed" et "Changes not staged for commit".
