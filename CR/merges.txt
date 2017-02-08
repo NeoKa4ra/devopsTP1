@@ -1,0 +1,5 @@
+Pour fusionner notre branch fork1 avec notre branche principale, nous nous sommes rendus sur la branch master aprés les modifications de fork1 :
+git checkout master
+Puis nous avons fait un merge du fork1 :
+git merge fork1
+ça nous a demandé si nous voulions mettre un message, nous n'avons rien changé pour que ça mette un message par défaut.
