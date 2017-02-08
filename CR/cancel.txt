@@ -1,0 +1,5 @@
+Pour annuler le dernier commit, nous avons utilisé la commande :
+git revert HEAD
+
+Pour annuler les changements d'un fichier qui n'a pas été commit, il suffit d'utiliser la commande : 
+git checkout chemin/FICHIER
