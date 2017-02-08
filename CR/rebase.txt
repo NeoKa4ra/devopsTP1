@@ -1,0 +1,13 @@
+Nous n'avions pas comprit qu'il ne fallait pas push la branche fork2 sur le dépôt.
+Pour réaliser l'étape 11, nous avons donc créé une branche fork3.
+
+Nous nous sommes rendus sur fork3 :
+git checkout fork3
+Ensuite, nous avons modifié puis commit un fichier test/test.txt :
+git add test/
+git commit -a -m "Test step11"
+Puis nous avons effectué le rebase :
+git rebase master
+Enfin, nous nous sommes rendus dans la branche master afin de faire avec la banche master jusqu'à la dernière version créée à l'aide d'un merge :
+git checkout master
+git merge fork3
