@@ -1,4 +1,4 @@
-Nous n'avions pas comprit qu'il ne fallait pas push la branche fork2 sur le dépôt.
+Nous n'avions pas compris qu'il ne fallait pas push la branche fork2 sur le dépôt.
 Pour réaliser l'étape 11, nous avons donc créé une branche fork3.
 
 Nous nous sommes rendus sur fork3 :
@@ -11,3 +11,10 @@ git rebase master
 Enfin, nous nous sommes rendus dans la branche master afin de faire avec la banche master jusqu'à la dernière version créée à l'aide d'un merge :
 git checkout master
 git merge fork3
+
+Lorsque nous utilisons rebase, les commits effectués sur la branch fork3 sont intégrées dans la branch master de façon linéaire mais nous ne les voyons pas encore dans la branch master.
+Pour voir ces modifications, il faut déplacer la tête de master, pour celà on utilise git merge fork3.
+
+
+
+On pense que l'avantage du rebase est par exemple, si nous souhaitons travailler sur quelque chose de spécifique sans impacter le dépôt pour l'instant, on créée une brnache locale pour faire ces modifs. De ce fait, nous pouvons toujours utiliser la branche master pour le reste (et pull). Lorsqu'on a fini, on peut faire un rebase dans master sans avoir jamais push la branche créée pour ce travail, afin que celui-ci ai des commits linéaires comme si la branche n'avait jamais existé.
