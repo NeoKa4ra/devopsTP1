@@ -1,0 +1,16 @@
+Nous avons modifié la même ligne du même fichier dans deux branches différentes, puis avons essayé de les merge pour créer un conflit.
+
+Aprés avoir créé le conflit, le merge nous a donner le message suivant :
+git merge fork5
+Fusion automatique de CR/branches.txt
+CONFLIT (contenu) : Conflit de fusion dans CR/branches.txt
+La fusion automatique a échoué ; réglez les conflits et validez le résultat.
+
+Pour le résoudre, nous nous sommes rendu dans le fichier, et nous avions ceci : 
+<<<<<<< HEAD
+2 et 3 - Liste des branches et savoir sur quelle branche on travaille (branche courante : avec une étoile, et de couleur souvent) : a
+=======
+2 et 3 - Liste des branches et savoir sur quelle branche on travaille (branche courante : avec une étoile, et de couleur souvent) : b
+>>>>>>> fork5
+
+Nous avons supprimé les chevrons et reconstitué la ligne comme nous le souhaitons, à savoir sans la lettre 'a', ni la lettre 'b' à la fin de la ligne.
