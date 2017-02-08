@@ -14,5 +14,3 @@ Pour le résoudre, nous nous sommes rendu dans le fichier, et nous avions ceci :
 >>>>>>> fork5
 
 Nous avons supprimé les chevrons et reconstitué la ligne comme nous le souhaitons, à savoir sans la lettre 'a', ni la lettre 'b' à la fin de la ligne.
-
-Je ne sais pas comment résoudre les conflits
